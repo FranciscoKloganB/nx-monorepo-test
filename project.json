@@ -1,0 +1,14 @@
+{
+  "name": "zenif",
+  "targets": {
+    "dev:dashboard": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": [
+          "(yarn nx watch --projects=design-system --includeDependentProjects -- yarn nx prepare design-system) &",
+          "yarn nx serve dashboard"
+        ]
+      }
+    }
+  }
+}
