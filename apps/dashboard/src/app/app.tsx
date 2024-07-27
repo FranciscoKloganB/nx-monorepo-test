@@ -1,7 +1,7 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { Button } from '@nx-monorepo/design-system';
 // TODO: not sure why I need to use `/index.js` here, NX is doing something weird
-import { css } from '../styled-system/css/css';
+import { css } from '../styled-system/css';
 import { VStack, Box } from '../styled-system/jsx';
 
 export function App() {
